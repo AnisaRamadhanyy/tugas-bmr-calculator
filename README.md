@@ -2,21 +2,20 @@
 
 A new Flutter project.
 
-# Kalkulator BMI dan BMR
+# Kalkulator BMR
 
-Aplikasi Flutter yang menggabungkan kalkulator **BMI** (Body Mass Index) dan **BMR** (Basal Metabolic Rate) dalam satu aplikasi. Kalkulator BMR mengacu pada [calculator.net/bmr-calculator](https://www.calculator.net/bmr-calculator.html) dan dikembangkan dari kalkulator BMI.
+Aplikasi Flutter yang menggabungkan kalkulator **BMR** (Basal Metabolic Rate) dalam satu aplikasi. Kalkulator BMR mengacu pada [calculator.net/bmr-calculator](https://www.calculator.net/bmr-calculator.html) dan dikembangkan dari kalkulator BMI.
 
 ## Anggota Kelompok
 
 | No | Nama | NIM |
 |----|------|-----|
 | 1  | Khoirul Lathifah Oktaviani | K3524027 |
-| 2  | Annisa Ramadhani | K3524045 |
+| 2  | Anisa Ramadhani | K3524045 |
 | 3  | Natasya Luthfia Ramadhani | K3524063 |
 
 ## Deskripsi
 
-- **BMI** menilai proporsi berat terhadap tinggi badan dan menampilkan kategori serta rentang berat sehat.
 - **BMR** menghitung kalori minimum yang dibutuhkan tubuh saat istirahat total, lalu mengalikannya dengan faktor aktivitas untuk mendapat kebutuhan kalori harian.
 
 ### Fitur
