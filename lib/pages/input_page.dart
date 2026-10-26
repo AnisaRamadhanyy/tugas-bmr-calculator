@@ -1,4 +1,4 @@
-// input_page.dart
+//input_page.dart
 
 import 'package:bmi_kalkulator_app/calculator.dart';
 import 'package:bmi_kalkulator_app/components/bottom_button.dart';
@@ -17,6 +17,7 @@ class InputPage extends StatefulWidget {
   State<InputPage> createState() => _InputPageState();
 }
 
+//Variabel state: nilai input yang berubah saat pengguna berintaksi
 class _InputPageState extends State<InputPage> {
   Gender selectedGender = Gender.male;
   int height = 160;
@@ -30,6 +31,7 @@ class _InputPageState extends State<InputPage> {
       appBar: AppBar(title: const Text('BMR CALCULATOR')),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
+        //Kartu pilihan gender: ketuk untuk memilih pria atau wanita
         children: [
           Expanded(
             child: Row(
@@ -69,6 +71,7 @@ class _InputPageState extends State<InputPage> {
               ],
             ),
           ),
+          //Kartu tinggi badan: geser slider untuk mengubah tinggi (120-220 cm; rentang dibuat yang masuk akal untuk dewasa)
           Expanded(
             child: CustomCard(
               color: activeCardColor,
@@ -113,6 +116,7 @@ class _InputPageState extends State<InputPage> {
               ),
             ),
           ),
+          //Kartu berat badan untuk mengubah berat lewat setState dan logo +-
           Expanded(
             child: Row(
               children: [
@@ -152,7 +156,7 @@ class _InputPageState extends State<InputPage> {
                     ),
                   ),
                 ),
-                // Kartu AGE (hasil copy dari kartu WEIGHT)
+                // Kartu AGE (hasil copy dari kartu WEIGHT; batas umur 15-80)
                 Expanded(
                   child: CustomCard(
                     color: activeCardColor,
@@ -194,6 +198,7 @@ class _InputPageState extends State<InputPage> {
               ],
             ),
           ),
+          //Tombol Calculate: mengirim data ke Calculator, lalu menuju ResultPage
           BottomButton(
             buttonTitle: 'CALCULATE',
             onTap: () {
