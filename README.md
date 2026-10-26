@@ -49,20 +49,20 @@ Keterangan: **W** = berat badan (kg), **H** = tinggi badan (cm), **A** = umur (t
 
 ### Contoh Perhitungan
 
-Pria, umur 25 tahun, tinggi 160 cm, berat 60 kg (nilai awal aplikasi):
+Wanita, umur 25 tahun, tinggi 182 cm, berat 60 kg:
 
 ```
-BMR = 10 x 60 + 6,25 x 160 - 5 x 25 + 5 = 1.480 kalori/hari
+BMR = 10 x 60 + 6,25 x 182 - 5 x 25 - 161 = 1.452 kalori/hari
 ```
 
 | Tingkat Aktivitas | Kalori/hari |
 |-------------------|-------------|
-| Sedentary | 1.776 |
-| Exercise 1-3 times/week | 2.035 |
-| Exercise 4-5 times/week | 2.168 |
-| Daily exercise / intense 3-4 times/week | 2.294 |
-| Intense exercise 6-7 times/week | 2.553 |
-| Very intense exercise daily | 2.812 |
+| Sedentary | 1.742 |
+| Exercise 1-3 times/week | 1.996 |
+| Exercise 4-5 times/week | 2.126 |
+| Daily exercise / intense 3-4 times/week | 2.250 |
+| Intense exercise 6-7 times/week | 2.504 |
+| Very intense exercise daily | 2.758 |
 
 ## Alur Program
 
