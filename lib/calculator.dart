@@ -25,6 +25,8 @@ class Calculator {
   };
 
   // Rumus Mifflin-St Jeor
+  // bagian dasar (berat, tinggi, umur) sama untuk pria dan wanita,
+  // lalu ditambah konstanta sesuai gender 
   double calculateBMR() {
     double bmr = 10 * weight + 6.25 * height - 5 * age;
     // Pria ditambah 5, wanita dikurangi 161
@@ -33,7 +35,9 @@ class Calculator {
 
   // Kebutuhan kalori harian = BMR x faktor aktivitas
   Map<String, int> dailyCalories() {
+    // Ambil nilai BMR terlebih dahulu
     final bmr = calculateBMR();
+    // Kalikan BMR dengan setiap faktor aktivitas, lalu dibulatkan
     return activityFactors.map((k, v) => MapEntry(k, (bmr * v).round()));
   }
 }
