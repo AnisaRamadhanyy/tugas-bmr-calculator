@@ -7,7 +7,7 @@ Aplikasi Flutter untuk menghitung **BMR** (Basal Metabolic Rate) dan kebutuhan k
 | No | Nama | NIM |
 |----|------|-----|
 | 1  | Khoirul Lathifah Oktaviani | K3524027 |
-| 2  | Annisa Ramadhani | K3524045 |
+| 2  | Anisa Ramadhani | K3524045 |
 | 3  | Natasya Luthfia Ramadhani | K3524063 |
 
 ## Deskripsi
